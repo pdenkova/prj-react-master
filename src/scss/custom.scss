@@ -1,0 +1,20 @@
+.img-div {
+    display: flex;
+    Height: 100vh;
+    Width: 100vw; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.favorite-icon{
+    color: gray;
+    cursor: pointer;
+    &.active {
+        color:crimson;
+    }
+}
+
+.button-clear{
+    float: right;
+}
